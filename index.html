@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Frontend Mentor - Recipe Page" />
+  <meta name="keywords" content="HTML, Tailwind CSS" />
+  <meta name="author" content="Rebecca Padgett" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Recipe page</title>
+  <!-- !google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap" rel="stylesheet" />
+  <!-- !css -->
+  <link rel="stylesheet" href="./public/output.css">
+</head>
+
+<body class="grid min-h-screen place-content-center bg-eggshell font-Outfit text-wenge-brown">
+  <main class="lg:max-w-[46.25rem] bg-white lg:my-[5rem] rounded-2xl">
+    <h1 class="sr-only">Frontend Mentor | Recipe page</h1>
+    <figure class="lg:p-10">
+      <img class="lg:rounded-xl" src="./assets/images/image-omelette.jpeg" alt="omelette" />
+      <figcaption class="sr-only">Omelette on a plate</figcaption>
+    </figure>
+    <section class="grid gap-16 py-11 px-[1.875rem] ">
+      <header class="grid gap-4">
+        <h2 class="text-3xl text-charcoal font-youngSerif lg:text-5xl">Simple Omelette Recipe</h2>
+        <p>
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with
+          your choice of cheese, vegetables, or meats.
+        </p>
+      </header>
+      <article class="grid gap-4 p-6 rounded-lg bg-rose-white">
+        <h3 class="text-xl font-bold text-raspbery font-Outfit">Preparation time</h3>
+        <ul class="flex flex-col list-disc gap-y-2 ml-7 marker:text-raspbery" role="list">
+          <li>
+            <span class="pl-3 font-bold ">Total:</span>
+            Approximately 10 minutes
+          </li>
+          <li>
+            <span class="pl-3 font-bold">Preparation:</span>
+            5 minutes
+          </li>
+          <li>
+            <span class="pl-3 font-bold">Cooking:</span>
+            5 minutes
+          </li>
+        </ul>
+      </article>
+      <article class="grid gap-4 border-b border-grey">
+        <h3 class="text-3xl font-bold font-youngSerif text-nutmeg">Ingredients</h3>
+        <ul class="flex flex-col mb-10 ml-6 list-disc marker:text-raspbery gap-y-2">
+          <li class="pl-6">2-3 large eggs</li>
+          <li class="pl-6">Salt, to taste</li>
+          <li class="pl-6">Pepper, to taste</li>
+          <li class="pl-6">1 tablespoon of butter or oil</li>
+          <li class="pl-6">
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </li>
+        </ul>
+      </article>
+      <article class="grid gap-4 border-b border-grey">
+        <h3 class="text-3xl font-bold font-youngSerif text-nutmeg">Instructions</h3>
+        <ol class="flex flex-col mb-10 ml-4 list-decimal marker:text-raspbery marker:font-bold gap-y-2">
+          <li class="pl-4">
+            <span class="font-bold">Beat the eggs:</span>
+            In a bowl, beat the eggs with a pinch of salt and pepper until
+            they are well mixed. You can add a tablespoon of water or milk for
+            a fluffier texture.
+          </li>
+          <li class="pl-4">
+            <span class="font-bold">Heat the pan:</span>
+            Place a non-stick frying pan over medium heat and add butter or
+            oil.
+          </li>
+          <li class="pl-4">
+            <span class="font-bold">Cook the omelette:</span>
+            Once the butter is melted and bubbling, pour in the eggs. Tilt the
+            pan to ensure the eggs evenly coat the surface.
+          </li>
+          <li class="pl-4">
+            <span class="font-bold">Add fillings (optional):</span>
+            When the eggs begin to set at the edges but are still slightly
+            runny in the middle, sprinkle your chosen fillings over one half
+            of the omelette.
+          </li>
+          <li class="pl-4">
+            <span class="font-bold">Fold and serve:</span>
+            As the omelette continues to cook, carefully lift one edge and
+            fold it over the fillings. Let it cook for another minute, then
+            slide it onto a plate.
+          </li>
+          <li class="pl-4">
+            <span class="font-bold">Enjoy:</span>
+            Serve hot, with additional salt and
+            pepper if needed.
+          </li>
+        </ol>
+      </article>
+      <article class="grid gap-4">
+        <h3 class="text-3xl font-bold font-youngSerif text-nutmeg">Nutrition</h3>
+        <p>
+          The table below shows nutritional values per serving without the
+          additional fillings.
+        </p>
+        <table>
+          <tr class="text-center border-b border-grey lg:text-left">
+            <td class="p-2">Calories</td>
+            <td class="font-bold text-nutmeg">277kcal</td>
+          </tr>
+          <tr class="text-center border-b border-grey lg:text-left">
+            <td class="p-2">Carbs</td>
+            <td class="font-bold text-nutmeg">0g</td>
+          </tr>
+          <tr class="text-center border-b border-grey lg:text-left">
+            <td class="p-2">Protein</td>
+            <td class="font-bold text-nutmeg">20g</td>
+          </tr>
+          <tr class="text-center border-b border-grey lg:text-left">
+            <td class="p-2">Fat</td>
+            <td class="font-bold text-nutmeg">22g</td>
+          </tr>
+        </table>
+      </article>
+    </section>
+  </main>
+</body>
