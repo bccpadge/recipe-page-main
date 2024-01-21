@@ -24,8 +24,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-html-and-tailwind-css-LmpWO_OYjE)
+- Live Site URL: [Github Pages](https://bccpadge.github.io/recipe-page-main/)
 
 ## My process
 
