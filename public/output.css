@@ -556,64 +556,20 @@ video {
   border-width: 0;
 }
 
-.fixed {
-  position: fixed;
-}
-
-.inset-0 {
-  inset: 0px;
-}
-
-.bottom-\[1em\] {
-  bottom: 1em;
-}
-
-.left-\[1em\] {
-  left: 1em;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.right-auto {
-  right: auto;
-}
-
-.top-auto {
-  top: auto;
-}
-
-.ml-7 {
-  margin-left: 1.75rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
 }
 
 .ml-4 {
   margin-left: 1rem;
 }
 
-.inline {
-  display: inline;
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
 }
 
 .flex {
@@ -628,24 +584,16 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
 
-.w-full {
-  width: 100%;
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .list-disc {
   list-style-type: disc;
-}
-
-.list-decimal {
-  list-style-type: decimal;
 }
 
 .flex-col {
@@ -668,14 +616,6 @@ video {
   row-gap: 0.5rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -694,41 +634,22 @@ video {
   background-color: hsl(30 54% 90% / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-rose-white {
   --tw-bg-opacity: 1;
   background-color: hsl(330 100% 98% / var(--tw-bg-opacity));
 }
 
-.p-11 {
-  padding: 2.75rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-2 {
   padding: 0.5rem;
 }
 
-.py-11 {
-  padding-top: 2.75rem;
-  padding-bottom: 2.75rem;
-}
-
-.px-\[1\.4375rem\] {
-  padding-left: 1.4375rem;
-  padding-right: 1.4375rem;
-}
-
-.px-\[1\.5625rem\] {
-  padding-left: 1.5625rem;
-  padding-right: 1.5625rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-\[1\.875rem\] {
@@ -736,16 +657,21 @@ video {
   padding-right: 1.875rem;
 }
 
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .text-center {
@@ -770,30 +696,8 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
-}
-
-.leading-9 {
-  line-height: 2.25rem;
-}
-
-.leading-normal {
-  line-height: 1.5;
-}
-
-.text-wenge-brown {
-  --tw-text-opacity: 1;
-  color: hsl(30 10% 34% / var(--tw-text-opacity));
 }
 
 .text-charcoal {
@@ -801,18 +705,19 @@ video {
   color: hsl(24 5% 18% / var(--tw-text-opacity));
 }
 
-.text-raspbery {
-  --tw-text-opacity: 1;
-  color: hsl(332 51% 32% / var(--tw-text-opacity));
-}
-
 .text-nutmeg {
   --tw-text-opacity: 1;
   color: hsl(14 45% 36% / var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-raspbery {
+  --tw-text-opacity: 1;
+  color: hsl(332 51% 32% / var(--tw-text-opacity));
+}
+
+.text-wenge-brown {
+  --tw-text-opacity: 1;
+  color: hsl(30 10% 34% / var(--tw-text-opacity));
 }
 
 .marker\:font-bold *::marker {
@@ -832,61 +737,17 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:fixed {
-    position: fixed;
-  }
-
-  .lg\:bottom-1 {
-    bottom: 0.25rem;
-  }
-
-  .lg\:right-0 {
-    right: 0px;
-  }
-
-  .lg\:top-0 {
-    top: 0px;
-  }
-
-  .lg\:bottom-\[1em\] {
-    bottom: 1em;
-  }
-
-  .lg\:left-\[1em\] {
-    left: 1em;
-  }
-
-  .lg\:right-auto {
-    right: auto;
-  }
-
-  .lg\:top-auto {
-    top: auto;
-  }
-
   .lg\:my-\[5rem\] {
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
 
-  .lg\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .lg\:mb-2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .lg\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:max-w-\[46\.25rem\] {
     max-width: 46.25rem;
+  }
+
+  .lg\:rounded-2xl {
+    border-radius: 1rem;
   }
 
   .lg\:rounded-xl {
@@ -899,10 +760,6 @@ video {
 
   .lg\:text-left {
     text-align: left;
-  }
-
-  .lg\:text-center {
-    text-align: center;
   }
 
   .lg\:text-5xl {
